@@ -27,4 +27,4 @@ npm run dev
 
 ## 📸 フォーム UI（スクリーンショット）
 
-![フォームのプレビュー](docs/demo1.png)
+![フォームのプレビュー](./docs/demo1.png)
