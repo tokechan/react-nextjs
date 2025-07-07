@@ -27,7 +27,7 @@ npm run dev
 
 ## 📸 フォーム UI（スクリーンショット）
 
-![フォームのプレビュー](./my-from-app/docs/demo1.png)
+## ![フォームのプレビュー](./my-from-app/docs/demo1.png)
 
 ## React Hook Form ver
 

@@ -22,29 +22,29 @@ export const UserFormRHF = () => {
   return (
     <form onSubmit={ handleSubmit(onSubmit)}>
       <div> 
-        <label>Name:</label>
-        <input {...register("name", { required: "Name is requierd" })} />
+        <label htmlFor="name">Name:</label>
+        <input id="name" autoComplete="name" {...register("name", { required: "Name is required" })} />
         {errors.name && <p>{errors.name.message}</p>}
       </div>
 
       <div>
-        <label>Email:</label>
-        <input {...register("email", { required: "Email is requierd" })} />
+        <label htmlFor="email">Email:</label>
+        <input id="email" autoComplete="email" {...register("email", { required: "Email is required" })} />
         {errors.email && <p>{errors.email.message}</p>}
       </div>
 
       <div >
-        <label>Age:</label>
-        <input 
+        <label htmlFor="age">Age:</label>
+        <input id="age"
           type="number"
-         {...register("age", { required: "Age is requierd" , valueAsNumber: true })}
+         {...register("age", { required: "Age is required" , valueAsNumber: true })}
         />
         {errors.age && <p>{errors.age.message}</p>}
       </div>
 
       <div>
-        <label>Bio:</label>
-        <textarea {...register("bio")} />
+        <label htmlFor="bio">Bio:</label>
+        <textarea id="bio" {...register("bio")} />
       </div>
 
       <button type="submit">Submit</button>
