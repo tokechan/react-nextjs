@@ -1,10 +1,11 @@
-import { UseForm } from "./componetns/UserForm";
+import { UserFormRHF } from "./componetns/UserFormRHF";
 
 function App() {
   return (
     <div>
       <h1>Hello DONGURIZU!!!!</h1>
-      <UseForm />
+      <img src={"/don2.png"} alt="dongrizu img"  width={400} height={400} />
+      <UserFormRHF />
     </div>
   );
 }
